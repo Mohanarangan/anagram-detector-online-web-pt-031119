@@ -12,8 +12,11 @@ class Anagram
     array = []
     array_words.each do|word|
     if @word.split("").sort==word.split("").sort
+    return word
+    else
       
-    binding.pry
+      
+   # binding.pry
   end
     
   end
