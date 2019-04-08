@@ -14,7 +14,7 @@ class Anagram
     if @word.split("").sort==word.split("").sort
     return word
     end
-    []
+    array= []
       
    # binding.pry
   end
