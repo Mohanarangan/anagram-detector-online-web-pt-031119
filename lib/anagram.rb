@@ -9,7 +9,7 @@ class Anagram
   end
   
   def match(array_words)
-   ect
+   array_words.select{|word|
   end
 
   
