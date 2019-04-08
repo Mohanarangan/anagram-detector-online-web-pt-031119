@@ -1,4 +1,5 @@
 # Your code goes here!
+require "pry"
 class Anagram 
   
   attr_accessor :word 
@@ -10,6 +11,8 @@ class Anagram
   def match(array_words)
     array = []
     array_words.each do|word|
+    binding.pry
+  end
     
   end
 
