@@ -8,6 +8,8 @@ class Anagram
   end
   
   def match(some_words)
+    Array = []
+    
   end
 
   
